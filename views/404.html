@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+	<meta charset="utf-8">
+
+	<title>Teste &amp; 3D</title>
+
+	<!-- Behavioral Meta Data -->
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+	<!-- Core Meta Data -->
+	<meta name="author" content="">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="favicon.png" type="image/png">
+
+	<!-- Apple Touch Icons -->
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="apple-touch-icon-144x144-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="apple-touch-icon-114x114-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="apple-touch-icon-72x72-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="57x57" href="apple-touch-icon-57x57-precomposed.png">
+
+	<!-- Fonts -->
+	<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Cardo' rel='stylesheet' type='text/css'>
+
+	<!-- Styles -->
+	<link rel="stylesheet" type="text/css" href="css/framework.css"/>
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+
+	<!-- Javascript -->
+	<script src="js/jquery.js"></script>
+</head>
+<body>
+	<div class="snap">
+		<div class="snap-content">
+			<img class="has-retina" src="images/logo.png" alt="Opia">
+			<span class="line"></span>
+			<h1>Oops.</h1>
+			<p class="sub-title">Site em manutenção tente mais tarde.</p>
+			<a class="button" href="index.html">Volta ao site</a>
+		</div>
+	</div>
+
+	<!-- Javascript -->
+	<script type="text/javascript">
+		function snapInit(){
+
+			var snapContent = $('.snap-content'),
+				snapContentHeight = snapContent.height(),
+				snapHeight = $('.snap').height(),
+				snapTopMargin = (snapHeight - snapContentHeight) / 2;
+
+			snapContent.css({
+				"margin-top" : snapTopMargin+"px"
+			});
+
+	    } 
+
+	    $(document).ready(snapInit);
+		$(window).resize(snapInit);
+	</script>
+</body>
+</html>

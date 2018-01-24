@@ -1,0 +1,61 @@
+<?php if(!class_exists('Rain\Tpl')){exit;}?><dir class="text-center">
+    <h2><?php echo htmlspecialchars( $category["descategory"], ENT_COMPAT, 'UTF-8', FALSE ); ?></h2>
+</dir>
+<div class="list-product-slider">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-sm-4 col-xs-12">
+                <div class="product-slider single-slider single-arrow ">
+                    <h2 class="title-slider">Produtos especiais</h2>
+                    <div class="sale-product-hightlight"><span>55% OFF</span></div>
+                    <div class="wrap-item">
+                        
+                        <div class="item">
+                        <div class="item-product">
+                            <div class="item-product-thumb">
+                                <a href="#" class="item-product-link">
+                                    <img src="/rest/site/images/product_home11/11.jpg" alt="" />
+                                </a>
+                            </div>
+                            <div class="item-product-info">
+                                <h3><a href="#">Chemise SLimFit</a></h3>
+                                <div class="info-product-price">
+                                    <span>R$45,99</span>
+                                </div>
+                                <div class="product-extra-link">
+                                    <a href="#" class="link-wishlist" title="Adicionar aos desejos"><i class="fa fa-heart"></i></a>
+                                    <a href="#" class="link-add-to-cart">Compra</a>
+                                    <a href="#" class="link-compare" title="Compare"><i class="fa fa-external-link-square"></i></a>
+                                </div>
+                            </div>
+                            <div class="info-product-price-view"><span>$1.058,00</span></div>
+                        </div>
+                        </div>
+                        <div class="item">
+                        <div class="item-product">
+                            <div class="item-product-thumb">
+                                <a href="#" class="item-product-link">
+                                    <img src="/rest/site/images/product_home11/11-11.jpg" alt="" />
+                                </a>
+                            </div>
+                            <div class="item-product-info">
+                                <h3><a href="#">Chemise SLimFit</a></h3>
+                                <div class="info-product-price">
+                                    <span>R$45,99</span>
+                                </div>
+                                <div class="product-extra-link">
+                                    <a href="#" class="link-wishlist" title="Adicionar aos desejos"><i class="fa fa-heart"></i></a>
+                                    <a href="#" class="link-add-to-cart">Compra</a>
+                                    <a href="#" class="link-compare" title="Compare"><i class="fa fa-external-link-square"></i></a>
+                                </div>
+                            </div>
+                            <div class="info-product-price-view"><span>$1.058,00</span></div>
+                        </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>           
+        </div>
+    </div>
+</div>
